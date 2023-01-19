@@ -1,9 +1,8 @@
 import React from "react";
-import { Row, Col, Typography, Button } from "antd";
+import { Row, Col, Button } from "antd";
 import logo from "../assets/download.jpg"
 import "./style.css";
-
-const { Link } = Typography
+import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <div>
@@ -17,16 +16,16 @@ const Navbar = () => {
                 <Col xl={19} xs={19} style={{ textAlign: "center", paddingTop: "10px" }}>
                     <Row >
                         <Col xl={4} xs={3} className="navbar-link">
-                            <Link href="/Home">Home</Link>
+                            <Link to="/Home">Home</Link>
                         </Col>
                         <Col xl={4} xs={3}>
-                            <Link href="/Home">Informasi PPDB</Link>
+                            <Link to="/Home">Informasi PPDB</Link>
                         </Col>
                         <Col xl={4} xs={3}>
-                            <Link href="/Home">Kontak</Link>
+                            <Link to="/Home">Kontak</Link>
                         </Col>
                         <Col xl={4} xs={3}>
-                            <Link href="/Home">Daftar PPDB</Link>
+                            <Link to="/register">Daftar PPDB</Link>
                         </Col>
                         <Col xl={8} xs={3}>
                             <Button type="primary"> Download Brousue</Button>

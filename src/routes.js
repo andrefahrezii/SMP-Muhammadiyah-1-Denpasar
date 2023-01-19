@@ -14,7 +14,7 @@ const routes = [
     },
     {
         name: "root",
-        path: "/",
+        path: "/register",
         element: <Register />
     }
 ];
