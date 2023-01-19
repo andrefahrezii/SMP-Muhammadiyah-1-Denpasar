@@ -16,13 +16,13 @@ const Navbar = () => {
                 <Col xl={19} xs={19} style={{ textAlign: "center", paddingTop: "10px" }}>
                     <Row >
                         <Col xl={4} xs={3} className="navbar-link">
-                            <Link to="/Home">Home</Link>
+                            <Link to="/">Home</Link>
                         </Col>
                         <Col xl={4} xs={3}>
                             <Link to="/Home">Informasi PPDB</Link>
                         </Col>
                         <Col xl={4} xs={3}>
-                            <Link to="/Home">Kontak</Link>
+                            <Link to="/login">Login</Link>
                         </Col>
                         <Col xl={4} xs={3}>
                             <Link to="/register">Daftar PPDB</Link>
