@@ -19,7 +19,7 @@ const Navbar = () => {
                             <Link to="/">Home</Link>
                         </Col>
                         <Col xl={4} xs={3}>
-                            <Link to="/Home">Informasi PPDB</Link>
+                            <Link to="/Result">Informasi PPDB</Link>
                         </Col>
                         <Col xl={4} xs={3}>
                             <Link to="/login">Login</Link>
